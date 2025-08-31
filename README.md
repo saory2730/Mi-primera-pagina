@@ -1,17 +1,17 @@
-Este es mi primer proyecto en HTML, CSS y JavaScript.  
+<em>  Este es mi primer proyecto en HTML, CSS y JavaScript. </em>
 Aquí practico cosas básicas como:
 
-- Encabezados y párrafos en HTML  
+  
 - Uso de enlaces e imágenes  
 - Estilos básicos con CSS (colores, fuentes y alineación)  
 - Un botón que al hacer clic muestra un mensaje en la consola con JavaScript  
 
 El título de la página es **"Mi Primera Página"** y contiene una pequeña descripción personal, un enlace a mi Instagram, una imagen y un botón interactivo.  
 
-📚 Fundamentos de Desarrollo Web
+<h1> 📚 Fundamentos de Desarrollo Web </h1>  
 Este documento proporciona una visión general de las tecnologías fundamentales para el desarrollo web: HTML, CSS, y JavaScript. Además, cubre conceptos clave como variables de entorno y el uso de las Herramientas de Desarrollo de Chrome.
 
-💻 HTML: Lenguaje de Marcado de Hipertexto
+<h3> 💻 HTML: Lenguaje de Marcado de Hipertexto </h3>  
 HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Utiliza etiquetas para organizar y presentar texto, imágenes, videos y otros elementos, definiendo la estructura y el contenido de un sitio. Su función principal es:
 
 1.Definir la estructura.
@@ -24,7 +24,7 @@ HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas we
 
 Esto permite que los navegadores interpreten y muestren el contenido de forma coherente.
 
-🏷️Etiquetas HTML
+<h3> 🏷️Etiquetas HTML </h3>
 Las etiquetas HTML son elementos clave que definen la estructura y el contenido de una página. Funcionan como marcadores que delimitan el inicio y el fin de un elemento, indicando al navegador cómo mostrarlo.
 
 | Etiqueta | Descripción |
@@ -48,7 +48,7 @@ Las etiquetas HTML son elementos clave que definen la estructura y el contenido 
 | `<script></script>` | Inserta un código que ejecuta una función |
 | `<span></span>` | Permite dar estructura al contenido |
 
-🖥️Atributos de una etiqueta HTML
+<h3> 🖥️Atributos de una etiqueta HTML </h3>|
 Un atributo es un par de nombre y valor que se añade a la etiqueta de apertura de un elemento para proporcionar información extra, modificar su comportamiento o apariencia.
 
 | Atributo | Descripción |
@@ -73,10 +73,10 @@ Un atributo es un par de nombre y valor que se añade a la etiqueta de apertura 
 | `lang` | Define el idioma del contenido. |
 | `data-*` | Atributos personalizados para almacenar datos adicionales en un elemento. |
 
-🎨 CSS: Hojas de Estilo en Cascada
+<h3> 🎨 CSS: Hojas de Estilo en Cascada </h3>
 CSS (Cascading Style Sheets) es un lenguaje de estilos utilizado para dar cualidades visuales y estéticas a una página web.
 
-Las tres formas principales de aplicar CSS en HTML son:
+<h4> Las tres formas principales de aplicar CSS en HTML son: </h4>    
 
 1.INLINE CSS: Dentro del mismo elemento usando el atributo style.
 <p style="color: blue; font-size: 18px;">Texto en azul con tamaño 18px</p>
@@ -105,7 +105,7 @@ h1 {
   text-align: center;
 }
 
-📍Propiedades CSS
+<h3> 📍Propiedades CSS </h3>  
 Una propiedad en CSS es un atributo que se aplica a un elemento HTML para definir su estilo visual.
 
 1.color: Define el color del texto.
@@ -114,12 +114,13 @@ Una propiedad en CSS es un atributo que se aplica a un elemento HTML para defini
 
 3.background-color: Define el color de fondo.
 
-4.Las propiedades se declaran dentro de un bloque de reglas con la siguiente estructura:
+<h4> Las propiedades se declaran dentro de un bloque de reglas con la siguiente estructura: </h4>  
+
 selector {
   propiedad: valor;
 }
 
-Otras propiedades comunes son:
+<h4> Otras propiedades comunes son: </h4>  
 
 1.font-family: Tipo de letra.
 
@@ -135,7 +136,7 @@ Otras propiedades comunes son:
 
 7.display: Tipo de visualización (block, inline, flex, etc.).
 
-Selectores CSS
+<h4> Selectores CSS </h4>  
 Un selector es la parte de la regla CSS que indica a qué elementos HTML se aplicarán los estilos.
 
 | Selector | Ejemplo | Descripción |
@@ -148,10 +149,10 @@ Un selector es la parte de la regla CSS que indica a qué elementos HTML se apli
 | Agrupados | `h1, h2, p` | Aplica el mismo estilo a varios elementos. |
 | Atributo | `input[type="text"]` | Selecciona según un atributo. |
 
-🤖 JavaScript (JS)
+<h3> 🤖 JavaScript (JS) </h3>
 JavaScript es un lenguaje de programación que aporta interactividad y dinamismo a las páginas web. Funciona junto con HTML y CSS para crear una mejor experiencia de usuario.
 
-Formas de añadir Interactividad
+<h5> Formas de añadir Interactividad </h5>  
 Insertando código en HTML:
 
 Dentro de la etiqueta <script> en el documento.
@@ -162,7 +163,7 @@ Usando eventos: Se asocian acciones a elementos (ej: onclick, onchange, onmouseo
 
 Manipulando el DOM: Con métodos como getElementById, querySelector, innerText, style, etc.
 
-Datos Primitivos en JS
+<h4> Datos Primitivos en JS </h4>  
 Son valores atómicos, inmutables y sin métodos.
 
 1-string: Texto (ej: "Hola", 'Mundo').
@@ -179,10 +180,10 @@ Son valores atómicos, inmutables y sin métodos.
 
 7-symbol: Valores únicos usados como identificadores.
 
-Estructuras de Control de Flujo
+<h4> Estructuras de Control de Flujo </h4>
 Sirven para decidir qué código ejecutar y cuántas veces.
 
-1. Condicionales
+<h5> 1. Condicionales </h5>  
 Se usan para ejecutar bloques de código dependiendo de una condición.
 
 if/else:
@@ -206,7 +207,7 @@ switch (dia) {
     console.log("Otro día");
 }
 
-2. Bucles
+<h5> 2. Bucles </h5>  
 for: Ejecuta un bloque un número definido de veces.
 
 for (let i = 1; i <= 3; i++) {
@@ -229,29 +230,30 @@ do {
   j++;
 } while (j <= 3);
 
-🔠Importancia de usar nombres significativos para variables y métodos: Usar nombres significativos para variables y métodos en muy impórtate porque
+<h4> 🔠Importancia de usar nombres significativos Para variables y métodos</h4> Usar nombres significativos para variables y métodos en muy impórtate porque
 permite que el código sea más claro, fácil de comprender y mantener tanto para uno como para los demás desarrolladores. Un nombre describe la función o el dato que
 representa, lo que reduce errores y evita confusiones, facilitando así el trabajo y cumpliendo las buenas prácticas de programación. 
 
-⚙️ Variables de Entorno
+<h3> ⚙️ Variables de Entorno </h3>    
 Son valores que se guardan en el sistema operativo y se usan para configurar el funcionamiento de programas. Permiten separar la configuración del código,
 haciendo que las aplicaciones sean más seguras, portables y fáciles de mantener.
 
-En Node.js, son de gran importancia porque permiten almacenar información sensible (claves de API, contraseñas, etc.) sin exponerla en el código fuente. 
+<h5>En Node.js</h5> son de gran importancia porque permiten almacenar información sensible (claves de API, contraseñas, etc.) sin exponerla en el código fuente. 
 También facilitan que una misma aplicación funcione en distintos entornos (desarrollo, pruebas o producción) sin modificar el código.
 
-🛠️ Herramientas de Desarrollo de Chrome
+<h3> 🛠️ Herramientas de Desarrollo de Chrome </h3>
 Las Herramientas de Desarrollo de Chrome (DevTools) son un conjunto de utilidades para depuración y perfiles web integradas en el navegador Google Chrome.
 Permiten a desarrolladores y diseñadores revisar errores, probar código, analizar el rendimiento y modificar una página en tiempo real.
 
-Cómo acceder a las DevTools
+<h5>Cómo acceder a las DevTools </h5>  
 .Clic derecho en la página y seleccionar "Inspeccionar".
 
 Atajos de teclado: F12, Ctrl + Shift + I o Cmd + Option + J.
 
-Paneles Principales
-Panel Elements: Permite explorar la estructura HTML de la página y los estilos CSS aplicados. Puedes editar etiquetas, clases o estilos y ver los cambios al instante.
+<h3> Paneles Principales </h3>  
 
-Panel Console: Funciona como una terminal dentro del navegador. Se puede escribir y ejecutar comandos de JavaScript, y muestra mensajes de depuración, advertencias y errores del sitio web.
+<h4> Panel Elements:<h4> Permite explorar la estructura HTML de la página y los estilos CSS aplicados. Puedes editar etiquetas, clases o estilos y ver los cambios al instante.
 
-Panel Network: Lista todos los recursos que carga la página (archivos CSS, JavaScript, imágenes, solicitudes de API, etc.). Muestra detalles como el tamaño, el tiempo de carga y los fallos, lo que ayuda a optimizar la velocidad y resolver problemas de conexión.
+<h4> Panel Console:</h4> Funciona como una terminal dentro del navegador. Se puede escribir y ejecutar comandos de JavaScript, y muestra mensajes de depuración, advertencias y errores del sitio web.
+
+<h4>Panel Network:</h4>   Lista todos los recursos que carga la página (archivos CSS, JavaScript, imágenes, solicitudes de API, etc.). Muestra detalles como el tamaño, el tiempo de carga y los fallos, lo que ayuda a optimizar la velocidad y resolver problemas de conexión.
